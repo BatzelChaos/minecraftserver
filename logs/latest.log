@@ -1,0 +1,77 @@
+[17:23:25] [main/INFO]: Loading Minecraft 1.21.6 with Fabric Loader 0.16.14
+[17:23:25] [main/INFO]: Loading 10 mods:
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.6
+	- voicechat 1.21.6-2.5.30
+	   |-- fabric-api-base 0.4.63+9ec45cd89c
+	   |-- fabric-command-api-v2 2.2.52+b39a696a9c
+	   |-- fabric-key-binding-api-v1 1.0.64+9ec45cd89c
+	   |-- fabric-lifecycle-events-v1 2.6.2+db4dfd859c
+	   |-- fabric-networking-api-v1 5.0.0+d32f812d9c
+	   \-- fabric-resource-loader-v0 3.1.10+fa6cb72b9c
+[17:23:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/TR/Desktop/KUTLU%20PASTA%202025%20FABRIC/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:23:25] [main/INFO]: Compatibility level set to JAVA_21
+[17:23:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:23:30] [main/INFO]: [voicechat] Compatibility version 18
+[17:23:30] [main/INFO]: [voicechat] Loading plugins
+[17:23:30] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[17:23:30] [main/INFO]: [voicechat] Initializing plugins
+[17:23:30] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[17:23:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:23:31] [main/INFO]: Loaded 1407 recipes
+[17:23:31] [main/INFO]: Loaded 1520 advancements
+[17:23:31] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[17:23:31] [Server thread/INFO]: Loading properties
+[17:23:31] [Server thread/INFO]: Default game type: SURVIVAL
+[17:23:31] [Server thread/INFO]: Generating keypair
+[17:23:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at knot/net.minecraft.class_3176$1.run(class_3176.java:102) [server-intermediary.jar:?]
+[17:23:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:23:32] [Server thread/INFO]: Using default channel type
+[17:23:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:23:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:23:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:23:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:23:32] [Server thread/INFO]: Preparing level "world"
+[17:23:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:23:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:23:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[17:23:33] [Server thread/INFO]: Time elapsed: 739 ms
+[17:23:33] [Server thread/INFO]: Done (0.945s)! For help, type "help"
+[17:23:33] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[17:23:33] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[17:24:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:26:28] [Server thread/INFO]: BatzelChaos[/192.168.1.100:60614] logged in with entity id 64 at (137.5, 64.0, 44.5)
+[17:26:28] [Server thread/INFO]: BatzelChaos joined the game
+[17:26:30] [Server thread/INFO]: BatzelChaos lost connection: Disconnected
+[17:26:30] [Server thread/INFO]: BatzelChaos left the game
+[17:26:30] [Server thread/INFO]: [voicechat] Disconnecting client BatzelChaos
+[17:27:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:04:48] [Server thread/INFO]: Stopping the server
+[19:04:48] [Server thread/INFO]: Stopping server
+[19:04:48] [Server thread/INFO]: Saving players
+[19:04:48] [Server thread/INFO]: Saving worlds
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:04:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:04:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:04:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:04:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:04:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
